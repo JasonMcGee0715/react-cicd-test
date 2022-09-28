@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# Build
+.gradle
+
 # testing
 /coverage
 
@@ -21,3 +24,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignore Gradle build output directory
+build
